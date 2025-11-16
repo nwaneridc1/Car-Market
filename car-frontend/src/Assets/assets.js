@@ -23,10 +23,9 @@ import home from './home.png'
 import phone from './phone.jpg'
 import house3 from './house-3.jpg'
 import house2 from './house-2.jpg'
-import auto2 from './Auto2.mp4'
 import car2 from './car2.jpg'
 import car3 from './car3.jpg'
-import car from './Cars.jpg'
+import car from './cars.jpg'
 import auto from './Auto.mp4'
 import arrow_icon from './arrow.png'
 import pause from './pause_icon.png'
@@ -54,7 +53,7 @@ import benz7 from './benz7.jpg'
 
 export const assets = {
   whatsapp,menu,cross,likebutton,profile,
-  auto,auto2,car,car2,car3,
+  auto,car,car2,car3,
   arrow_icon,pause,play,
   footer,footer2,
 
