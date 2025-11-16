@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import Navbar from './Components/Navbar';
-import Home from './Pages/Home';
 import Background from './Background/Background';
 import Hero from './Hero/Hero';
 import Contact from './Pages/ContactUs';
