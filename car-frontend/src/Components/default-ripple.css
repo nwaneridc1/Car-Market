@@ -1,0 +1,28 @@
+/* default-ripple.css */
+.ripple-ring {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.904);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0.3);
+  animation: ripple-pulse 2s infinite ease-in-out;
+  z-index: 0;
+}
+
+@keyframes ripple-pulse {
+  0% {
+    transform: translate(50%, -50%) scale(0.3);
+    opacity: 0.8;
+  }
+  70% {
+    transform: translate(50%, 50%) scale(3);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(50%, 50%) scale(7);
+    opacity: 0;
+  }
+}
